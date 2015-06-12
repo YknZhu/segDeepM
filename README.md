@@ -5,9 +5,11 @@ Object detection with segmentation and context in deep networks.
 
 1. Following https://github.com/rbgirshick/rcnn to set up caffe and RCNN;
 
-2. Put pre-computed CPMC masks and corresponding potentials to segDeepM/ and run segDeepM.m;
+2. Fine-tune VGG/AlexNet and put the models to data/caffe_nets/ (finetuned model also available at http://www.cs.toronto.edu/~yukun/segdeepm.html)
 
-3. Enjoy :)
+3. Put pre-computed CPMC masks and corresponding potentials to segDeepM/ and run segDeepM.m;
+
+4. Enjoy :)
 
 # citing segDeepM
 
